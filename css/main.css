@@ -1,0 +1,109 @@
+/*****Base Styles*****/
+body{
+  color: #2b2b2b;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 20px;
+}
+
+/*****Grid*****/
+.full-width{
+  overflow: auto;
+  width: 1264px;
+}
+.half-width{
+  float:left;
+  width: 630px;
+}
+.third-width{
+  float:left;
+  width: 400px;
+}
+
+/*****Header*****/
+header h1{
+  font-size: 30pt;
+  text-transform: uppercase;
+}
+header h1 span{
+  color: #77a466;
+}
+nav{
+  float: right;
+  padding: 25px 40px 0 0;
+}
+nav ul li{
+  color: #77a466;
+  display: inline-block;
+  font-size: 15px;
+  padding-left: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#gallery-photo{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+/*****Welcome*****/
+#welcome{
+  clear: both;
+}
+#welcome h2{
+  color: #77a466;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#welcome p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+/*****Features*****/
+#features{
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+#features h4{
+  font-size: 12pt;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#features p{
+  font-size: 16pt;
+  padding: 0 50px 0 0;
+}
+#features #specials ul li{
+  color: #77a466;
+  font-size: 14pt;
+  line-height: 40px;
+  list-style: none;
+  margin-left: -40px;
+}
+#features #reviews{
+  border-left: 1px solid #deddbc;
+  border-right: 1px solid #dedbdc;
+  line-height: 21px;
+  padding-left: 30px;
+}
+#features #contact{
+  line-height: 24px;
+  padding-left: 30px;
+}
+
+/*****Slogan*****/
+#slogan{
+  clear: both;
+  text-align: center;
+  padding-top: 15px;
+}
+#slogan h3{
+  font-size: 14;
+  text-transform: uppercase;
+}
+#slogan h3 span{
+  color: #77a466;
+  font-family: 'galada', cursive;
+  text-transform: lowercase;
+}
